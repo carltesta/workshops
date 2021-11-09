@@ -44,6 +44,12 @@
 
 ### modulate
 
-`modulate(color, amount)`
-
-
+`modulate(color, amount)`\
+`modulateRepeat(color, repeatX, repeatY, offsetX, offsetY)`\
+`modulateKaleid(color, nSides)`\
+`modulateScrollX(color, scrollX, speed)`\
+`modulateScrollY(color, scrollY, speed)`\
+`modulateScale(color, multiple, offset)`\
+`modulatePixelate(color, multiple, offset)`\
+`modulateRotate(color, multiple, offset)`\
+`modulateHue(color, amount)`
