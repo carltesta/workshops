@@ -12,7 +12,5 @@ Estuary Discord: https://discord.com/invite/snvFzkPtFr \
 Hydra Discord: https://discord.com/invite/ZQjfHkNHXC \
 TidalCycles Forum: https://club.tidalcycles.org/ 
 
-Contribute to Tidalcycles: \
-https://opencollective.org/tidalcycles \
-Contribute to Hydra: \
-https://opencollective.org/hydra
+Contribute to Tidalcycles: https://opencollective.org/tidalcycles \
+Contribute to Hydra: https://opencollective.org/hydra
