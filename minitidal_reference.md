@@ -21,11 +21,11 @@
 spreadsheet of sound banks is [here](https://docs.google.com/spreadsheets/d/1aiKqsljYSy5kOY1Gn1CHfkYAEShDaj-z9TDNqnNcTqU/edit#gid=1498343341)
 
 #### drums
-`bd sd hh ho hc lt ht mt drum`
+`bd sd hh ho hc lt ht mt drum tech amencutup`
 #### melodic (all start on note C)
-`gtr arpy sprvibe sid:3 blip acordeon piano casio moog:1 moog:2 pluck:5 sax:5 v`
+`gtr flbass arpy sprvibe sid:3 blip acordeon piano casio moog:1 moog:2 pluck:5 sax:5 v`
 #### textural
-`print birds pebbles psr`
+`print birds pebbles psr glitch fire industrial coffee can falls`
 #### speech
 `numbers alphabet speech`
 
