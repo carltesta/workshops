@@ -2,7 +2,8 @@
 materials from 2021-2022 live coding workshops
 
 My website - http://carltesta.net/workshops.htm \
-This repository of materials for the workshop - https://github.com/carltesta/workshops 
+This repository of materials for the workshop - https://github.com/carltesta/workshops \
+Colletion of miniature pieces written in and for Estuary - https://gist.github.com/carltesta/fa21822b300ace8ff64b01a65d54821e
 
 Estuary - https://estuary.mcmaster.ca \
 TidalCycles - https://tidalcycles.org \
