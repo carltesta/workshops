@@ -22,6 +22,7 @@ enter the following command into Estuary's terminal `!reslist "https://carltesta
 Some Favorite Live Coding Performances/Albums: \
 Artist (Coding Language) : link \
 Alexandra Cardenas (TidalCycles) : https://tiemposdelruido.bandcamp.com/releases \
+Yaxu/Alex McLean + hellocatfood/Antonio Roberts (Tidalcycles + Pure Data) : https://youtu.be/Vomnc9R-7mw \
 Digital Selves/Elizabeth Wilson (TidalCyles) : https://digitalselves.bandcamp.com/album/body-language \
 Sam Aaron (Sonic Pi) : https://youtu.be/G1m0aX9Lpts \
 RGGTRN (FoxDot? TidalCyles?) : https://soundcloud.com/rggtrn/rggtrnwondervillenyc?si=b64c1d4a89e44cdf96e64710db0a1179 \
