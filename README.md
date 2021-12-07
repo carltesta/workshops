@@ -15,3 +15,15 @@ TidalCycles Forum: https://club.tidalcycles.org/
 
 Contribute to Tidalcycles: https://opencollective.org/tidalcycles \
 Contribute to Hydra: https://opencollective.org/hydra
+
+Sound Resources (not all public domain): \
+enter the following command into Estuary's terminal `!reslist "https://carltesta.github.io/resources.json"`
+
+Some Favorite Live Coding Performances/Albums: \
+Artist (Coding Language) : link \
+Alexandra Cardenas (TidalCycles) : https://tiemposdelruido.bandcamp.com/releases
+Digital Selves/Elizabeth Wilson (TidalCyles) : https://digitalselves.bandcamp.com/album/body-language
+Sam Aaron (Sonic Pi) : https://youtu.be/G1m0aX9Lpts
+RGGTRN (FoxDot? TidalCyles?) : https://soundcloud.com/rggtrn/rggtrnwondervillenyc?si=b64c1d4a89e44cdf96e64710db0a1179
+
+MORE FAVORITES SOON!
