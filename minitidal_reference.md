@@ -82,6 +82,7 @@ arpeggisation modes in Estuary\
 `!listviews` list all available presetiews\
 `!presetview twobyfive` change presetview to a two by five grid\
 `!publishview def` publish your current view as the default for all users\
-`!setbpm 90` change the default BPM of the ensemble
+`!setbpm 90` change the default BPM of the ensemble\
+`setAudioOutputs 4` change the number of audio outputs in Estuary (requires multichannel audio interface
 
 Parts of code taken from: https://club.tidalcycles.org/t/week-3-lesson-1-exploring-the-every-function-including-tackling-the-meaning-of/502
