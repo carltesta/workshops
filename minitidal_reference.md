@@ -17,6 +17,24 @@
 `s "drum*4" # n "0 1 2 3"` same as above\
 `slow 2 $ s "bd sd bd sd"` or `fast 2 $ s "bd sd bd sd"` play pattern slower or faster than one cycle
 
+### Mininotation Reference
+from here: https://tidalcycles.org/docs/reference/mini_notation
+The mininotation can be used within the `sound` or `s` pattern\
+`~` rest\
+`[]` pattern grouping `s "[bd sd] bd sd sd"`\
+`.` pattern grouping\
+`,` parallel patterns `s "[bd sd, hh hh]"`\
+`*` repeat sounds `s "bd*2"`\
+`/` play every other cycle `s "bd sd/2 hh/3"`\
+`|` random choice `s "bd | sd | hh"`\
+`<>` alternate item each cycle `s "<bd sd hh>"`\
+`!` replicate `s "bd!4"`\
+`_` elongate `s "bd_4"`\
+`?` randomly remove item `s "hh*16?"`\
+`:` select sample `s "drum:1 drum:2 drum:4 drum:3"`\
+`()` euclid rhythms `s "fast 2 $ bd(3,8)"`\
+`{}` polymetric sequence `s "{bd bd bd bd, cp cp hh}"`
+
 ### List of Samples to try
 spreadsheet of sound banks is [here](https://docs.google.com/spreadsheets/d/1aiKqsljYSy5kOY1Gn1CHfkYAEShDaj-z9TDNqnNcTqU/edit#gid=1498343341)
 
