@@ -1,3 +1,6 @@
+## Estuary Collaborative Live Coding Platform
+### access Estuary here: https://estuary.mcmaster.ca
+
 ## MiniTidal Reference
 
 ### playing sounds (samples)
