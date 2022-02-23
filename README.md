@@ -16,8 +16,14 @@ TidalCycles Forum: https://club.tidalcycles.org/
 Contribute to Tidalcycles: https://opencollective.org/tidalcycles \
 Contribute to Hydra: https://opencollective.org/hydra
 
-CC0 (Public Domain) Sound Resources: \
+Free Sound Resources: \
+CC0/Public Domain VCSL Library \
+https://github.com/carltesta/vcsl_for_estuary
 enter the following command into Estuary's terminal `!reslist "https://carltesta.github.io/vcsl_for_estuary/resources.json"`
+
+BSL Tahti Studio Library \
+https://github.com/carltesta/tahti_for_estuary
+enter the following command into Estuary's terminal `!reslist "https://carltesta.github.io/tahti_for_estuary/resources.json"`
 
 Some Favorite Live Coding Performances/Albums: \
 Artist (Coding Language) : link \
