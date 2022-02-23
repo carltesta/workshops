@@ -16,8 +16,8 @@ TidalCycles Forum: https://club.tidalcycles.org/
 Contribute to Tidalcycles: https://opencollective.org/tidalcycles \
 Contribute to Hydra: https://opencollective.org/hydra
 
-Sound Resources (not all public domain, check permissions before using in published piece): \
-enter the following command into Estuary's terminal `!reslist "https://carltesta.github.io/resources.json"`
+CC0 (Public Domain) Sound Resources: \
+enter the following command into Estuary's terminal `!reslist "https://carltesta.github.io/vcsl_for_estuary/resources.json"`
 
 Some Favorite Live Coding Performances/Albums: \
 Artist (Coding Language) : link \
