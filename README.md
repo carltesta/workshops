@@ -12,7 +12,7 @@ Sonic Pi - https://sonic-pi.net
 
 Estuary Discord: https://discord.com/invite/snvFzkPtFr \
 Hydra Discord: https://discord.com/invite/ZQjfHkNHXC \
-TidalCycles Forum: https://club.tidalcycles.org/ \ 
+TidalCycles Forum: https://club.tidalcycles.org/ \
 Sonic Pi Forum: https://in-thread.sonic-pi.net/
 
 Contribute to Tidalcycles: https://opencollective.org/tidalcycles \
