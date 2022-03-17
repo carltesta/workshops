@@ -8,13 +8,13 @@ To get started in Sonic Pi you only need to know 2 commands, `play` and `sleep` 
 `play 60 # will play a synth note specifically middle C on a keyboard` \
 `play 72 # will play the note an octave above middle C or 12 semitones/half-steps higher`
 
-If you type both of those commands into Sonic Pi and hit Run, you'll hear two notes played at the same time, if you want them to happen at different times, you need to use the `sleep` command \
+If you type both of those commands into Sonic Pi and hit Run, you'll hear two notes played at the same time, if you want them to happen at different times, you need to use the `sleep` command 
 ```
 play 60
 sleep 1
 play 72
 ```
-The sleep command tells Sonic Pi to wait a certain number of beats before continuting on to the next command, so the first note is played, Sonic Pi waits for 1 beat (1 second in this case) and then plays the next note \
+The sleep command tells Sonic Pi to wait a certain number of beats before continuting on to the next command, so the first note is played, Sonic Pi waits for 1 beat (1 second in this case) and then plays the next note 
 
 You could string together a bunch of different `play` and `sleep` commands to play any type of simple melody. If you'd prefer to write out the melody with note names you can use the symbols `:c4` and `:c5` in lieu of `60` and `72`
 ```
