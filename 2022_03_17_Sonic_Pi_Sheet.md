@@ -92,7 +92,7 @@ Here's where things start to get really fun. It's great to write melodies and us
 
 To create a `live_loop` type the following
 ```
-live_loop ::metronome do
+live_loop :metronome do
 sleep 1
 end
 ```
