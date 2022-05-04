@@ -1,4 +1,4 @@
-# Punctual Tutorial
+# Punctual Visuals Tutorial
 Use Punctual either in Estuary https://estuary.mcmaster.ca or in the stand-alone version https://dktr0.github.io/Punctual/ \
 The full Punctual Reference page can be found here https://github.com/dktr0/Punctual/blob/main/REFERENCE.md
 
@@ -59,8 +59,43 @@ rect [0,0][1,1] * [0.5,0.1,0.8] >> video
 We could even assign this list of values to a variable and be able to refer to it over and over.
 ```
 purple << [0.5,0.1,0.8];
-
-rect [0,0][1,1] * purple >> video;
+forestgreen << [0,(110/255),(51/255)];
+rect [0,0][1,1] * forestgreen >> video;
+circle [-0.5,0.75] 0.3 * purple >> video;
 ```
 ## Moving things around
-Now that we know a bit about different shapes, how to place them and how to color them.
+Now that we know a bit about different shapes, how to place them and how to color them. Let's look at how we can move them around the screen over time. Punctual has a few oscillators we can use to control both both audio and video. The basic oscillators are sine `sin` square `sqr` and triangle `tri`. Each oscillator takes one or more values that controls the frequency of the oscillator or in effect, how fast our shapes and lines move across the screen. Let's start with moving a circle back and forth.
+```
+fit 1 $ circle [sin 0.1,0] 0.25 >> video; 
+```
+Now in place of the x value we put a sine wave oscillator with a value of 0.1 hertz. With a 0.1 hertz sine wave it will take 10 seconds for the circle to move from one side of the screen, to the other, and back again. We can use oscillators to control any aspect of our visuals.
+```
+fit 1 $ circle [sin 0.1,tri 0.5] (sin 0.02) >> video;
+```
+You may notice in this example that the circle completely disappears for awhile, this is because the radius of the circle is being controlled by a sine wave osillator `sine 0.02` that is moving between negative 1 (-1) and positive 1. So when the circle has a negative radius we don't see it anymore. If we always want to see the circle we can make the sine wave oscillator unipolar (only moving between 0 and 1) but addding the unipolar function `unipolar $`.
+```
+fit 1 $ circle [sin 0.1, tri 0.5] (unipolar $ sin 0.02) >> video;
+```
+Now that things are moving around the screen we might want to see their paths gradually fade away. We can do that by increasing the visual feedback present in Punctual with the `fdbk` output.
+```
+fit 1 $ circle [sin 0.1, tri 0.5] (unipolar $ sin 0.02) >> video;
+0.95 >> fdbk;
+```
+## Audio Reactivity
+When using Punctual in the Estuary platform, there are a number of ways to make your visuals audioreactive where they directly (or indirectly) correpsond to aspects of the music including frequency spectrum and tempo. In order to explore this, let's select MiniTidal from the dropdown in another box and copy paste the following code in there and set it running.
+```
+stack [
+fast 2 $ s "drum(3,8),
+every 4 (degrade) $ sometimes (fast 2) $ scramble 8 $ note (scale "lydian" "0 .. 7") # s "gtr" # speed "<1 2>",
+s "blip*16?"
+]
+```
+Then in the Punctual box, type (or copy/paste) the following code and set it running.
+```
+fit 1 $ circle [0,0] lo >> red;
+fit 1 $ circle [sin cps,0.6] hi >> blue;
+hline [(0.85)] (mid/8) >> green;
+```
+You'll notice the radius of the red circle roughly corresponds to the sounds of the bass drum/low guitar notes, the blue circle is moving left to right in time with the beat and also changing size based on the bigher blip sound, and the horizontal line across the top changing width based on the middle range of the music. Notice that I scaled this value down `(mid/8)` so that it doens't take up as much vertical space on the screen.
+
+Using what you know about Punctual now, modify this sound to create your own audioreactive composition. Have fun!
