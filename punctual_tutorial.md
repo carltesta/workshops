@@ -98,4 +98,10 @@ hline [(0.85)] (mid/8) >> green;
 ```
 You'll notice the radius of the red circle roughly corresponds to the sounds of the bass drum/low guitar notes, the blue circle is moving left to right in time with the beat and also changing size based on the bigher blip sound, and the horizontal line across the top changing width based on the middle range of the music. Notice that I scaled this value down `(mid/8)` so that it doens't take up as much vertical space on the screen.
 
-Using what you know about Punctual now, modify this sound to create your own audioreactive composition. Have fun!
+Using what you know about Punctual now, modify this code to create your own audioreactive composition. Have fun!
+
+## TODO
+
+### Adding, Subtracting, Multiplying, Dividing, Exponentiation
+### Geometry Transformation
+### Incorporating Images and Videos
