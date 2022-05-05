@@ -1,14 +1,15 @@
 # workshops
 materials from 2021-2022 live coding workshops
 
-My website - http://carltesta.net/workshops.htm \
-This repository of materials for the workshop - https://github.com/carltesta/workshops \
-Collection of miniature pieces written in and for Estuary - https://gist.github.com/carltesta/fa21822b300ace8ff64b01a65d54821e
+My website - [http://carltesta.net/workshops.htm](http://carltesta.net/workshops.htm) \
+This repository of materials for the workshop - [https://github.com/carltesta/workshops](https://github.com/carltesta/workshops) \
+Collection of miniature pieces written in and for Estuary -[https://gist.github.com/carltesta/fa21822b300ace8ff64b01a65d54821e]( https://gist.github.com/carltesta/fa21822b300ace8ff64b01a65d54821e)
 
-Estuary - https://estuary.mcmaster.ca \
-TidalCycles - https://tidalcycles.org \
-Hydra - https://hydra.ojack.xyz \
-Sonic Pi - https://sonic-pi.net
+Estuary - [https://estuary.mcmaster.ca](https://estuary.mcmaster.ca) \
+TidalCycles - [https://tidalcycles.org](https://tidalcycles.org) \
+Hydra - [https://hydra.ojack.xyz](https://hydra.ojack.xyz) \
+Sonic Pi - [https://sonic-pi.net](https://sonic-pi.net)
+Punctual - [https://dktr0.github.io/Punctual/](https://dktr0.github.io/Punctual/)
 
 Estuary Discord: https://discord.com/invite/snvFzkPtFr \
 Hydra Discord: https://discord.com/invite/ZQjfHkNHXC \
