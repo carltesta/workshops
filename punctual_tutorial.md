@@ -63,6 +63,12 @@ forestgreen << [0,(110/255),(51/255)];
 rect [0,0][1,1] * forestgreen >> video;
 circle [-0.5,0.75] 0.3 * purple >> video;
 ```
+
+An alternative way of specifying colors is using the Hue, Saturation, Value (HSV) model. For example using that model and converting it to RGB for display to the screen we can easily create a casacde of rainbow colors across the screen:
+```
+hsvrgb [unipolar $ fx, 1, 1] >> video;
+```
+
 ## Moving things around
 Now that we know a bit about different shapes, how to place them and how to color them. Let's look at how we can move them around the screen over time. Punctual has a few oscillators we can use to control both both audio and video. The basic oscillators are sine `sin` square `sqr` and triangle `tri`. Each oscillator takes one or more values that controls the frequency of the oscillator or in effect, how fast our shapes and lines move across the screen. Let's start with moving a circle back and forth.
 ```
