@@ -110,4 +110,19 @@ Using what you know about Punctual now, modify this code to create your own audi
 
 ### Adding, Subtracting, Multiplying, Dividing, Exponentiation
 ### Geometry Transformation
+
+There are currently four types of transformations built-in to Estuary.
+```
+tile [4,1] $ circle [0,0] 0.25 >> video;
+```
+zoom [2,sin 0.1] $ line [-0.5,-0.5][0.25,0.75] 0.002;
+0.95 >> fdbk;
+```
+```
+spin
+```
+```
+move
+```
+
 ### Incorporating Images and Videos
