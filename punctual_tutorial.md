@@ -129,3 +129,5 @@ move
 ```
 
 ### Incorporating Images and Videos
+
+### Combining Hydra Visuals with Punctual Visuals in Estuary
