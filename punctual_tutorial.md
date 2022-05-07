@@ -1,5 +1,6 @@
 # Punctual Visuals Tutorial
 Use Punctual either in Estuary https://estuary.mcmaster.ca or in the stand-alone version https://dktr0.github.io/Punctual/ \
+This tutorial is heavily inspired by Bernard Gray's DECODED series: [https://decoded.livecode.au/#/punctual/](https://decoded.livecode.au/#/punctual/) \
 The full Punctual Reference page can be found here https://github.com/dktr0/Punctual/blob/main/REFERENCE.md
 
 ## Creating shapes and lines on screen using coordinates
@@ -28,6 +29,7 @@ We can create horizontal and vertical lines by using `hline` and `vline` and sup
 ```
 hline [0.75] 0.001 >> video
 ```
+
 ```
 vline [0.25] 0.001 >> video
 ```
@@ -114,6 +116,7 @@ Using what you know about Punctual now, modify this code to create your own audi
 There are currently four types of transformations built-in to Estuary.
 ```
 tile [4,1] $ circle [0,0] 0.25 >> video;
+```
 ```
 zoom [2,sin 0.1] $ line [-0.5,-0.5][0.25,0.75] 0.002;
 0.95 >> fdbk;
