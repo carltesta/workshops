@@ -78,6 +78,7 @@ shape(3,0.25).modulate(osc(10,0.1,1.5),0.3).out()
 ```
 shape(3,0.25).modulate(osc(10,0.1,1.5),0.7).out()
 ```
+```
 shape(3,0.25).modulate(osc(10,0.1,1.5),0.9).out()
 ```
 
