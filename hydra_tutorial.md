@@ -4,17 +4,29 @@
 //This is Hydra Video Synth, written by Olivia Jack @ojack. You can create amazing live coded visuals with this open-source tool. Some of the artists tonight are using this tool for their performance. Please note that if you are sensitive to seizures due to bright flashing lights you should not use this tool.
 
 //Place your cursor on the line below and then press CTRL+ENTER, by doing that you are "executing" the code
+```
 osc(60).out()
+```
 
 //You should see black and white bars moving across the screen. This is a visual oscillator. It takes 3 parameters (or arguments): frequency, sync, offset which roughly correspond to the number of bars on the screen, how fast the bars are moving, and what colors the bars are showing. Execute the code below (by pressing CTRL+ENTER) and change the numbers to see how the parameters effect the oscillator.
 
+```
 osc(60,0.1,1.5).out()
+```
 
 //The oscillator is a type of source in Hydra. There are lots of sources. Try out the following lines one at a time
+```
 noise(10,0.1).out()
+```
+```
 voronoi(10,0.1,0.1).out()
+```
+```
 gradient(2).out()
+```
+```
 shape(3,0.25,0.01).out()
+```
 
 //We can use each of those source types to generate visuals. When experimenting with the code, make sure you end each line with .out() otherwise you won't see the results of your code. We can combine different sources in different ways.
 
