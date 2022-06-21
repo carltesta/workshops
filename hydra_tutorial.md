@@ -1,5 +1,5 @@
 # Hydra Video Synth Tutorial
-## You can go through this tutorial within Hydra by clicking (https://tiny.cc/hydra_tutorial)[on this link]
+## You can go through this tutorial within Hydra by clicking (https://tiny.cc/hydratutorial)[on this link]
 
 //This is Hydra Video Synth, written by Olivia Jack @ojack. You can create amazing live coded visuals with this open-source tool. Some of the artists tonight are using this tool for their performance. Please note that if you are sensitive to seizures due to bright flashing lights you should not use this tool.
 
