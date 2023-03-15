@@ -1,5 +1,5 @@
 # workshops
-materials from 2021-2022 live coding workshops
+materials from 2021-2023 live coding workshops
 
 My website - [http://carltesta.net/workshops.htm](http://carltesta.net/workshops.htm) \
 This repository of materials for the workshop - [https://github.com/carltesta/workshops](https://github.com/carltesta/workshops) \
