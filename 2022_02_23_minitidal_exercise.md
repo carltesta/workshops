@@ -1,4 +1,5 @@
 # Estuary/MiniTidal Ambient Music Exercise
+### Carl Testa
 
 ## Load Resources
 First thing to do is to load the public domain sound resources for this exercise, the leader of the workshop can enter the following command in the Terminal/Chat of the Estuary ensemble. ```!reslist "https://carltesta.github.io/vcsl_for_estuary/resources.json"```
