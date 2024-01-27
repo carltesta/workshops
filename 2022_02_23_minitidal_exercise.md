@@ -45,6 +45,6 @@ Let's add a new parameter `# cutoff 1000` to our code: `slow 0.7 $ s "vibraphone
 
 Now let's gradually lower cutoff from 1000 to 0 to fade out our sounds: `slow 0.7 $ s "vibraphone ~ concertharp folkharp ~ ~ ~ ~" # speed "[0.5 | 1 | 2 | -1 | -0.5]" # n (irand 42) # cutoff 900`
 
-# Silence to end
+## Silence to end
 
 Then add `# silence` at the end to finish: `slow 0.7 $ s "vibraphone ~ concertharp folkharp ~ ~ ~ ~" # speed "[0.5 | 1 | 2 | -1 | -0.5]" # n (irand 42) # cutoff 0 # silence`
