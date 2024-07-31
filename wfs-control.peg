@@ -9,3 +9,9 @@ lag = "lag"i { return "|+| pF \"lag\"" }
 n = "n"i { return "|+| pN \"n\"" }
 x = "x"i {return "|+| pF \"x\"" }
 y = "y"i { return "|+| pF \"y\"" }
+
+//example usage
+//
+//##wfs-control
+//
+//wfs lag "0.5" n "2" x "0.5" y "0 2 4 8"
