@@ -1,24 +1,11 @@
 ##JSoLang wfs-control
 
-// Basic Template
-
 main = x:allRules* { return "##miniTidal\n" + x.join("") }
 allRules = wfs / lag / n / x / y / anyCharacter
 anyCharacter = .
 
-// Simple Text Replacement example
-// add as many as you want
-
-wfs = "wfs"i { return "pS "s" "wfs"" }
-
-lag = "lag"i { return "# pF "lag" }
-
-n = "n"i { return "# pN "n" }
-
-x = "x"i" {return "# pF "x" }
-
-y = "y"i { return "# pF "y" }
-
-// wfs lag "0.5" n "2" x "0" y "0 4 3 8" 
-//should return
-//pS "s" "wfs" # pF "lag" "0.5" # pN "n" "2" # pF "x" "0" # pF "y" "0 4 3 8"
+wfs = "wfs"i { return  "pS \"s\" \"wfs\"" }
+lag = "lag"i { return "|+| pF \"lag\"" }
+n = "n"i { return "|+| pN \"n\"" }
+x = "x"i {return "|+| pF \"x\"" }
+y = "y"i { return "|+| pF \"y\"" }
