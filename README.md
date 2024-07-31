@@ -20,6 +20,9 @@ Contribute to Tidalcycles: [https://opencollective.org/tidalcycles](https://open
 Contribute to Hydra: [https://opencollective.org/hydra](https://opencollective.org/hydra) \
 Contribute to Sonic Pi: [https://www.patreon.com/samaaron](https://www.patreon.com/samaaron)
 
+Estuary Documentation/Tutorials: \
+Jessica Rodriguez's Documentation: [https://github.com/jac307/documentation-Estuary](https://github.com/jac307/documentation-Estuary)
+
 Free Sound Resources: \
 CC0/Public Domain VCSL Library: [https://github.com/carltesta/vcsl_for_estuary](https://github.com/carltesta/vcsl_for_estuary) \
 enter the following command into Estuary's terminal 
